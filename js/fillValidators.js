@@ -1,7 +1,7 @@
 'use strict'
 /* global $, fetch */
 
-const API_VALIDOTS = 'https://api.testnet.semux.online/v2.2.0/validators'
+const API_VALIDOTS = 'https://api.semux.info/v2.4.0/validators'
 
 async function fillValidators () {
   const data = await fetch(API_VALIDOTS)

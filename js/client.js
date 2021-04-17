@@ -42,7 +42,7 @@ $('a.copyAddress').on('click', function (e) {
 
 $('a.openExplorer').on('click', function (e) {
   const address = $('.activeAddress').val()
-  chrome.tabs.create({ url: 'https://testnet.semux.info/explorer/account/' + address })
+  chrome.tabs.create({ url: 'https://semux.info/explorer/account/' + address })
 })
 
 $('a.showQR').on('click', function (e) {

@@ -195,7 +195,7 @@ async function sendTx (txObj) {
 
   try {
     var tx = new Transaction(
-      Network.TESTNET,
+      Network.MAINNET,
       TransactionType[txObj.type.toUpperCase()],
       hexBytes(txObj.toAddress), // to
       Long.fromNumber(txObj.amount), // value
