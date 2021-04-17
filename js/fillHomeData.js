@@ -56,9 +56,9 @@ async function fillAccount () {
   $('div.addressData p.hexAddress').attr('data-address', data.address)
   $('p.semValue').text(availableBal.toFixed(4) + ' SEM')
   $('p.usdValue').text(usdAmount + ' USD')
-  if (!parseFloat(usdAmount)) {
+  /*if (!parseFloat(usdAmount)) {
     $('p.usdValue').hide()
-  }
+  }*/
   $('.semLocked').prepend('<span>' + lockedBal.toFixed(3) + ' SEM</span>')
 }
 
