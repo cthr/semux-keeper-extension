@@ -277,7 +277,8 @@ p.hint {
 }
 
 .app-footer {
-  height: 100px;
+  overflow: auto;
+  height: 250px;
   margin-top: 15px;
 }
 
@@ -321,6 +322,21 @@ p.hint {
   border-bottom: 1px solid #ccc;
 }
 
+.transactionList .txElement .transactionType span.transactionStatus {
+  text-transform: uppercase;
+  padding: 2px;
+  margin-left: 8px;
+  font-size: 9px;
+}
+.transactionList .txElement .transactionType span.transactionStatus.confirmed {
+  background-color: #eafad7;
+  color: #609a1c;
+}
+.transactionList .txElement .transactionType span.transactionStatus.pending {
+  background-color: #FFF2DB;
+  color: #CA810A;
+}
+
 .transactionExpand .transactionExpandHeader {
   display: flex;
   justify-content: space-between;
@@ -352,9 +368,6 @@ p.hint {
   border-bottom: 1px solid #ccc;
   height: 35px;
 }
-
-
-
 
 .transactionList .transactionDate {
   font-size: 13px;
