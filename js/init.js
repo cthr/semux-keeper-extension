@@ -1,7 +1,7 @@
 'use strict'
 /* global chrome, fetch */
 
-const STEX_API = 'https://api3.stex.com/public/ticker/575'
+const STEX_API = 'https://api3.stex.com/public/ticker/575/'
 const BITSTAMP_API = 'https://www.bitstamp.net/api/v2/ticker/btcusd/'
 
 function initStorage () {

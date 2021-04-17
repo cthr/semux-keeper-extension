@@ -3,7 +3,7 @@
 import { getExchangeRate } from './utils/exchanges.js'
 import { getLastActiveAccount, getAllAccounts } from './utils/accounts.js'
 
-const API = 'https://api.testnet.semux.online/v2.2.0/'
+const API = 'https://api.semux.info/v2.4.0/'
 
 async function getAccountData () {
   let lastActive = await getLastActiveAccount()

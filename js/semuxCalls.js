@@ -7,7 +7,7 @@ const Buffer = require('buffer/').Buffer
 
 const { decrypt, encrypt, hexBytes, randomSalt, randomIv } = require('./utils.js')
 
-const API = 'https://api.testnet.semux.online/v2.2.0/'
+const API = 'https://api.semux.info/v2.4.0/'
 const FEE = 5000000
 
 function createEncryptedWallet (privateKey, password) {
